@@ -9,9 +9,17 @@ Here are some of the examples from val set <br>
 Have a look at learned positional embedding layer below. Note it does not show usual property that token nearby are close by (atleast it does not seem to be monotonic perfectly) <br>
 <img width="428" alt="image" src="https://github.com/Sachin-Bharadwaj/VIT-MNIST/assets/26499326/72168fa2-9911-4f61-81af-9846c84bd4bc"> <br>
 
-**How to design fixed positional embedding**
+**How to design fixed positional embedding** <br>
 We have seen the formuale below in the paper to come up with fixed positional embedding <br>
 <img width="578" alt="image" src="https://github.com/Sachin-Bharadwaj/VIT-MNIST/assets/26499326/d4c42286-0c04-4b9b-927c-efc805b97394"> <br>
 Here, $i$ denotes the token position, $j$ denotes the embedding dimension.
+
+This seems a bit cryptic to me. So lets design our own psitional embedding which is inspired from above formulae. <br>
+<img width="827" alt="image" src="https://github.com/Sachin-Bharadwaj/VIT-MNIST/assets/26499326/ca40c912-02a9-467d-af34-dc23d2a5e157"> <br>
+<img width="779" alt="image" src="https://github.com/Sachin-Bharadwaj/VIT-MNIST/assets/26499326/e00b3acf-b299-43ef-9331-59c0bab6a8ce"> <br>
+
+For more experiments with designing fixed positional embedding, check the VIT notebook!
+
+
 
 
