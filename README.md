@@ -10,4 +10,8 @@ Have a look at learned positional embedding layer below. Note it does not show u
 <img width="428" alt="image" src="https://github.com/Sachin-Bharadwaj/VIT-MNIST/assets/26499326/72168fa2-9911-4f61-81af-9846c84bd4bc"> <br>
 
 **How to design fixed positional embedding**
+We have seen the formuale below in the paper to come up with fixed positional embedding <br>
+<img width="578" alt="image" src="https://github.com/Sachin-Bharadwaj/VIT-MNIST/assets/26499326/d4c42286-0c04-4b9b-927c-efc805b97394"> <br>
+Here, $i$ denotes the token position, $j$ denotes the embedding dimension.
+
 
